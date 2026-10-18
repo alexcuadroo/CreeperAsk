@@ -1,0 +1,14 @@
+name: CreeperAsk
+version: 1.0.0
+main: com.creeperask.CreeperAskPlugin
+api-version: '26.1'
+description: Pide permiso antes de que un creeper pueda explotar cerca de un jugador.
+commands:
+  creeperask:
+    description: Activa o desactiva CreeperAsk globalmente.
+    usage: /creeperask <on|off>
+    permission: creeperask.admin
+permissions:
+  creeperask.admin:
+    description: Permite activar o desactivar CreeperAsk.
+    default: op
